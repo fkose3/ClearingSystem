@@ -1,2 +1,44 @@
-﻿body {
+﻿#register_box {
+    width:310px;
+    padding:20px;
+    background-color:#a8e1fa;
+}
+
+    #register_box .register_text {
+          font-family:'Century Gothic';
+          height:25px;
+          width:300px;
+          font-size:16px;
+          border-radius:5px;
+          margin-bottom:10px;
+          padding:2px;
+          color:#bababa;  
+          resize:none;      
+    }
+
+    #register_box .register_text_mini {
+          font-family:'Century Gothic';
+          height:25px;
+          width:140px;
+          font-size:16px;
+          border-radius:5px;
+          margin-bottom:10px;
+          padding:2px;
+          color:#bababa;  
+          resize:none;      
+          margin-right:5px;
+    }
+
+    #register_box #Adress {
+        height:100px;
+    }
+
+.addError {
+    background-color:#f7d5d5;
+    color:#000;
+}
+
+.addSusccessfully {
+     background-color:#d1f8cd;
+     color:#000;
 }
