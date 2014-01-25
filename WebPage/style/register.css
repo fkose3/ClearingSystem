@@ -13,11 +13,11 @@
           margin-bottom:10px;
           padding:2px;
           color:#bababa;  
-          resize:none;      
+          resize:none;    
+          font-style:italic;  
     }
 
     #register_box .register_text_mini {
-          font-family:'Century Gothic';
           height:25px;
           width:140px;
           font-size:16px;
@@ -27,6 +27,7 @@
           color:#bababa;  
           resize:none;      
           margin-right:5px;
+          font-style:italic;  
     }
 
     #register_box #Adress {
@@ -41,4 +42,34 @@
 .addSusccessfully {
      background-color:#d1f8cd;
      color:#000;
+}
+
+.singin_button {
+   background: -webkit-gradient(linear, center top, center bottom, from(#67ae55), to(#578843));
+   background: -webkit-linear-gradient(top, #67ae55, #578843);
+   background-color: #69a74e;
+   -webkit-box-shadow: inset 0 1px 1px #a4e388;
+   border-color: #3b6e22 #3b6e22 #2c5115;
+   width:158px;
+   height:30px;
+
+   border: 1px solid;
+    -webkit-border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    letter-spacing: 1px;
+    position: relative;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+
+   
+}
+
+.reset_button {
+    width:140px;
+    height:30px;
+    border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    background:linear-gradient(#ffb76b 0%,#ffa73d 50%,#ff7c00 51%,#ff7f04 100%);
 }

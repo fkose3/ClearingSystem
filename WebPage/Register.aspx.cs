@@ -13,5 +13,11 @@ namespace WebPage
         {
 
         }
+
+        [System.Web.Services.WebMethod]
+        public static string SendForm(string name,string surname,string user,string password,string email,string adress)
+        {
+            return name + "--" + user;
+        }
     }
 }
